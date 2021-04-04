@@ -1,61 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>CavityCudDesigns</class>
+ <widget class="QWidget" name="CavityCudDesigns">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>612</width>
+    <height>565</height>
    </rect>
   </property>
-  <property name="windowTitle">
-   <string>Form</string>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
   </property>
-  <widget class="PyDMPushButton" name="test_PyDMPushButton">
+  <property name="windowTitle">
+   <string>Cavity Cud</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="PyDMDrawingRectangle" name="Red_TLC_cavity">
    <property name="geometry">
     <rect>
-     <x>9</x>
-     <y>9</y>
-     <width>45</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>Cavity</string>
-   </property>
-   <property name="alarmSensitiveContent" stdset="0">
-    <bool>true</bool>
-   </property>
-   <property name="alarmSensitiveBorder" stdset="0">
-    <bool>true</bool>
-   </property>
-  </widget>
-  <widget class="PyDMRelatedDisplayButton" name="test_PyDMRelatedDisplayButton">
-   <property name="geometry">
-    <rect>
-     <x>9</x>
-     <y>36</y>
-     <width>120</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>Cavity Display</string>
-   </property>
-  </widget>
-  <widget class="PyDMDrawingRectangle" name="Probelm_red_cavity">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>68</y>
+     <x>120</x>
+     <y>49</y>
      <width>100</width>
      <height>100</height>
     </rect>
@@ -76,24 +108,39 @@
     <brush brushstyle="SolidPattern">
      <color alpha="255">
       <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>195</green>
+      <blue>187</blue>
      </color>
     </brush>
    </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::DashDotLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::FlatCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
    <property name="penColor" stdset="0">
     <color>
-     <red>3</red>
+     <red>255</red>
      <green>0</green>
      <blue>0</blue>
     </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
    </property>
   </widget>
   <widget class="PyDMDrawingRectangle" name="All_OK_green_cavity">
    <property name="geometry">
     <rect>
-     <x>125</x>
-     <y>68</y>
+     <x>375</x>
+     <y>48</y>
      <width>100</width>
      <height>100</height>
     </rect>
@@ -113,40 +160,69 @@
    <property name="brush" stdset="0">
     <brush brushstyle="SolidPattern">
      <color alpha="255">
-      <red>0</red>
+      <red>201</red>
       <green>255</green>
-      <blue>0</blue>
+      <blue>203</blue>
      </color>
     </brush>
    </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>46</red>
+     <green>248</green>
+     <blue>10</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>4.000000000000000</double>
+   </property>
   </widget>
-  <widget class="PyDMLabel" name="PV_sens_text_problem">
+  <widget class="PyDMLabel" name="Red_TLC_text">
    <property name="geometry">
     <rect>
-     <x>25</x>
-     <y>105</y>
+     <x>135</x>
+     <y>86</y>
      <width>70</width>
      <height>17</height>
     </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>17</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active/>
+     <inactive/>
+     <disabled/>
+    </palette>
    </property>
    <property name="toolTip">
     <string/>
    </property>
    <property name="text">
-    <string>Problem!</string>
+    <string>SSA</string>
    </property>
    <property name="textFormat">
     <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
    <property name="rules" stdset="0">
     <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &gt; 0&quot;, &quot;name&quot;: &quot;Problem&quot;}]</string>
    </property>
   </widget>
-  <widget class="PyDMLabel" name="PV_sens_text_OK">
+  <widget class="PyDMLabel" name="All_OK_green_cavity_3">
    <property name="geometry">
     <rect>
-     <x>140</x>
-     <y>106</y>
+     <x>385</x>
+     <y>86</y>
      <width>70</width>
      <height>17</height>
     </rect>
@@ -157,10 +233,358 @@
    <property name="text">
     <string>All Good</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
    <property name="rules" stdset="0">
     <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
    </property>
   </widget>
+  <widget class="PyDMLabel" name="Red_TLC_text_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>223</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SSA</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &gt; 0&quot;, &quot;name&quot;: &quot;Problem&quot;}]</string>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="Red_TLC_cavity_2">
+   <property name="geometry">
+    <rect>
+     <x>125</x>
+     <y>181</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &gt; 0&quot;, &quot;name&quot;: &quot;Cavity Severe Problem&quot;}]</string>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>185</green>
+      <blue>197</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::DashDotLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::FlatCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>45.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="All_OK_green_cavity_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>187</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;Cavity Happy&quot;}]</string>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>201</red>
+      <green>255</green>
+      <blue>203</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>46</red>
+     <green>248</green>
+     <blue>10</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>4.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="All_OK_green_text">
+   <property name="geometry">
+    <rect>
+     <x>385</x>
+     <y>225</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>All Good</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="Yellow_TLC_cavity">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>48</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;Cavity Happy&quot;}]</string>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>253</green>
+      <blue>167</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::DotLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>248</red>
+     <green>228</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>4.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="Yellow_TLC_text">
+   <property name="geometry">
+    <rect>
+     <x>255</x>
+     <y>87</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>AMJ</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="Yellow_TLC_cavity_2">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>180</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;Cavity Happy&quot;}]</string>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>true</bool>
+   </property>
+   <property name="alarmSensitiveBorder" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>253</green>
+      <blue>167</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::DotLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>248</red>
+     <green>228</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>4.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>45.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="Yellow_TLC_text_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>218</y>
+     <width>70</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>AMJ</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingPolygon" name="PyDMDrawingPolygon">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>328</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="numberOfPoints" stdset="0">
+    <number>6</number>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingPolygon" name="PyDMDrawingPolygon_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>337</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>90.000000000000000</double>
+   </property>
+   <property name="numberOfPoints" stdset="0">
+    <number>5</number>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingPolygon" name="PyDMDrawingPolygon_3">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>326</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="numberOfPoints" stdset="0">
+    <number>4</number>
+   </property>
+  </widget>
+  <zorder>Red_TLC_cavity</zorder>
+  <zorder>All_OK_green_cavity</zorder>
+  <zorder>Red_TLC_text</zorder>
+  <zorder>Red_TLC_cavity_2</zorder>
+  <zorder>Red_TLC_text_2</zorder>
+  <zorder>All_OK_green_cavity_2</zorder>
+  <zorder>All_OK_green_text</zorder>
+  <zorder>Yellow_TLC_cavity</zorder>
+  <zorder>Yellow_TLC_cavity_2</zorder>
+  <zorder>Yellow_TLC_text_2</zorder>
+  <zorder>PyDMDrawingPolygon</zorder>
+  <zorder>PyDMDrawingPolygon_2</zorder>
+  <zorder>PyDMDrawingPolygon_3</zorder>
+  <zorder>Yellow_TLC_text</zorder>
+  <zorder>All_OK_green_cavity_3</zorder>
  </widget>
  <customwidgets>
   <customwidget>
@@ -169,19 +593,14 @@
    <header>pydm.widgets.label</header>
   </customwidget>
   <customwidget>
-   <class>PyDMPushButton</class>
-   <extends>QPushButton</extends>
-   <header>pydm.widgets.pushbutton</header>
+   <class>PyDMDrawingPolygon</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
   </customwidget>
   <customwidget>
    <class>PyDMDrawingRectangle</class>
    <extends>QWidget</extends>
    <header>pydm.widgets.drawing</header>
-  </customwidget>
-  <customwidget>
-   <class>PyDMRelatedDisplayButton</class>
-   <extends>QPushButton</extends>
-   <header>pydm.widgets.related_display_button</header>
   </customwidget>
  </customwidgets>
  <resources/>
