@@ -180,91 +180,6 @@
     <double>4.000000000000000</double>
    </property>
   </widget>
-  <widget class="PyDMLabel" name="Red_TLC_text">
-   <property name="geometry">
-    <rect>
-     <x>135</x>
-     <y>86</y>
-     <width>70</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="minimumSize">
-    <size>
-     <width>0</width>
-     <height>17</height>
-    </size>
-   </property>
-   <property name="palette">
-    <palette>
-     <active/>
-     <inactive/>
-     <disabled/>
-    </palette>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>SSA</string>
-   </property>
-   <property name="textFormat">
-    <enum>Qt::PlainText</enum>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="rules" stdset="0">
-    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &gt; 0&quot;, &quot;name&quot;: &quot;Problem&quot;}]</string>
-   </property>
-  </widget>
-  <widget class="PyDMLabel" name="All_OK_green_cavity_3">
-   <property name="geometry">
-    <rect>
-     <x>385</x>
-     <y>86</y>
-     <width>70</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>All Good</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="rules" stdset="0">
-    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
-   </property>
-  </widget>
-  <widget class="PyDMLabel" name="Red_TLC_text_2">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>223</y>
-     <width>70</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>SSA</string>
-   </property>
-   <property name="textFormat">
-    <enum>Qt::PlainText</enum>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="rules" stdset="0">
-    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &gt; 0&quot;, &quot;name&quot;: &quot;Problem&quot;}]</string>
-   </property>
-  </widget>
   <widget class="PyDMDrawingRectangle" name="Red_TLC_cavity_2">
    <property name="geometry">
     <rect>
@@ -362,28 +277,6 @@
     <double>4.000000000000000</double>
    </property>
   </widget>
-  <widget class="PyDMLabel" name="All_OK_green_text">
-   <property name="geometry">
-    <rect>
-     <x>385</x>
-     <y>225</y>
-     <width>70</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>All Good</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="rules" stdset="0">
-    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
-   </property>
-  </widget>
   <widget class="PyDMDrawingRectangle" name="Yellow_TLC_cavity">
    <property name="geometry">
     <rect>
@@ -426,28 +319,6 @@
    </property>
    <property name="penWidth" stdset="0">
     <double>4.000000000000000</double>
-   </property>
-  </widget>
-  <widget class="PyDMLabel" name="Yellow_TLC_text">
-   <property name="geometry">
-    <rect>
-     <x>255</x>
-     <y>87</y>
-     <width>70</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>AMJ</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="rules" stdset="0">
-    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
    </property>
   </widget>
   <widget class="PyDMDrawingRectangle" name="Yellow_TLC_cavity_2">
@@ -495,28 +366,6 @@
    </property>
    <property name="rotation" stdset="0">
     <double>45.000000000000000</double>
-   </property>
-  </widget>
-  <widget class="PyDMLabel" name="Yellow_TLC_text_2">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>218</y>
-     <width>70</width>
-     <height>17</height>
-    </rect>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>AMJ</string>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-   <property name="rules" stdset="0">
-    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;SIOC:SYS0:ML07:AO000&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;np.abs(ch[0]) &lt; 1&quot;, &quot;name&quot;: &quot;All Good&quot;}]</string>
    </property>
   </widget>
   <widget class="PyDMDrawingPolygon" name="PyDMDrawingPolygon">
@@ -570,21 +419,201 @@
     <number>4</number>
    </property>
   </widget>
-  <zorder>Red_TLC_cavity</zorder>
-  <zorder>All_OK_green_cavity</zorder>
-  <zorder>Red_TLC_text</zorder>
-  <zorder>Red_TLC_cavity_2</zorder>
-  <zorder>Red_TLC_text_2</zorder>
-  <zorder>All_OK_green_cavity_2</zorder>
-  <zorder>All_OK_green_text</zorder>
-  <zorder>Yellow_TLC_cavity</zorder>
-  <zorder>Yellow_TLC_cavity_2</zorder>
-  <zorder>Yellow_TLC_text_2</zorder>
-  <zorder>PyDMDrawingPolygon</zorder>
-  <zorder>PyDMDrawingPolygon_2</zorder>
-  <zorder>PyDMDrawingPolygon_3</zorder>
-  <zorder>Yellow_TLC_text</zorder>
-  <zorder>All_OK_green_cavity_3</zorder>
+  <widget class="PyDMLabel" name="TLC">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>77</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>TLC</string>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;TLC recieved from somewhere important&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;ca://${MOTOR}.DESC&quot;, &quot;name&quot;: &quot;Cavity Severe Problem&quot;}]</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${MOTOR}.DESC</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::String</enum>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="TLC_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>76</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>TLC</string>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;TLC recieved from somewhere important&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;ca://${MOTOR}.DESC&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${MOTOR}.DESC</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::String</enum>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="TLC_3">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>74</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>TLC</string>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;TLC recieved from somewhere important&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;ca://${MOTOR}.DESC&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${MOTOR}.DESC</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::String</enum>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="TLC_4">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>210</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>TLC</string>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;TLC recieved from somewhere important&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;ca://${MOTOR}.DESC&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${MOTOR}.DESC</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::String</enum>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="TLC_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>211</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>TLC</string>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;TLC recieved from somewhere important&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;ca://${MOTOR}.DESC&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${MOTOR}.DESC</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::String</enum>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="TLC_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>218</y>
+     <width>111</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>30</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>TLC</string>
+   </property>
+   <property name="rules" stdset="0">
+    <string>[{&quot;channels&quot;: [{&quot;trigger&quot;: true, &quot;channel&quot;: &quot;TLC recieved from somewhere important&quot;}], &quot;property&quot;: &quot;Visible&quot;, &quot;expression&quot;: &quot;ca://${MOTOR}.DESC&quot;, &quot;name&quot;: &quot;New Rule&quot;}]</string>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://${MOTOR}.DESC</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::String</enum>
+   </property>
+  </widget>
  </widget>
  <customwidgets>
   <customwidget>
